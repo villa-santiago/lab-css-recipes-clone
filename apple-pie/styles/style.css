@@ -23,12 +23,22 @@ body {
 /* STYLES */
 /* Write your CSS below */
 
+/*Set the background image of the header*/
+.hero {
+  background-image: url(/apple-pie/images/apple-pie.jpg);
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+
 header h1 {
+  color: white;
   text-align: center;
   font-size: 61.04px;
   position: relative;
   top: 50%;
-  color: white;
 }
 
 h2 {
@@ -39,13 +49,7 @@ h2 {
   
 }
 
-.hero {
-background-image: url(/apple-pie/images/apple-pie.jpg);
-height: 500px;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-}
+
 
 
 section {
